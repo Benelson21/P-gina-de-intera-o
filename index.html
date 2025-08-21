@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+    <style>
+body{
+ background-color: black;
+}
+
+header{
+    height:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+header h2{
+    color: white;
+}
+main{
+    width:100%;
+    height: 110vh;
+    gap:10px;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-position: center;
+    background-size:cover;
+    background-image:url(./img/Viatura-Policia-Civil1.jpg);
+}
+.container{
+    width:50vh;
+    gap: 10px;
+    height:105vh;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #C1C1
+
+}
+
+.card{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card H2{
+    font-size:24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card2{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card2 h2{
+    font-size:24px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.card3{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card3 h2{
+    
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card4{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+
+}
+.card4 H2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card5{
+    height: 16vh;
+    width: 47vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+
+}
+.card5 h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card6{
+    height: 16vh;
+    width: 47vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card6 h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.content{
+    width:50vh;
+    height:105vh;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(59, 58, 58);
+    margin: 0%;
+}
+header{
+    height:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+header h2{
+    color: white;
+}
+main{
+    width:100%;
+    height: 110vh;
+    gap:10px;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width:50vh;
+    gap: 10px;
+    height:105vh;
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(59, 58, 58);
+
+   
+
+}
+
+.card{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card H2{
+    font-size:24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card2{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card2 h2{
+    font-size:24px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.card3{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card3 h2{
+    
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card4{
+    height: 16vh;
+    width: 47vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+
+}
+.card4 H2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card5{
+    height: 16vh;
+    width: 47vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+
+}
+.card5 h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.card6{
+    height: 16vh;
+    width: 47vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.card6 h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.content{
+    width:50vh;
+    height:105vh;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(59, 58, 58);
+}
+    
+
+
+.text{
+    height:10vh;
+    width: 46vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.text h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.linha{
+    height:8px;
+    width: 45vh;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.linha2{
+    height:8px;
+    width: 30vh;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.inform{
+    height:50vh;
+    width: 45vh;
+    display: flex;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+
+button{
+    height:33px;
+    width: 20vh;
+    border-radius: 10px;
+    color:red;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+    
+
+
+.text{
+    height:10vh;
+    width: 46vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.752);
+
+}
+.text h2{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.linha{
+    height:8px;
+    width: 45vh;
+    border-radius: 30px;
+    background-color:red;
+
+}
+.linha2{
+    height:8px;
+    width: 30vh;
+    border-radius: 20px;
+    background-color: red;
+
+}
+.inform{
+    height:50vh;
+    width: 45vh;
+    display: flex;
+    padding:10px;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    font-weight: bold;
+}
+
+button{
+    height:33px;
+    width: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>HISTÓRICO CRIMINAL</h2>
+    </header>
+    <main>
+        <div class="container" id="container">
+            <div class="card" id="card">
+                <h2>HANNA OLIVEIRA</h2>
+
+               <button type="button" onclick='document.getElementById("inform").innerHTML
+                = "  <h2>HANNA OLIVEIRA</h2>35 anos/histórico criminal sem ocorrências/cidadã com nome limpo.!"'>
+
+                VER HISTÓRICO</button>
+
+            </div>
+
+            <div class="card2" id="card2">
+                <h2>JACSON SOUSA</h2>
+            <button type="button" onclick='document.getElementById("inform").innerHTML = 
+            "  <h2>JACSON SOUSA</h2>30 anos/Sem histórico criminal/cidadão com nome limpo.!"'>
+            VER HISTÓRICO</button>
+
+            </div>
+
+            <div class="card3" id="card3">
+                <H2>PEDRO ALENCAR</H2>
+                
+            <button type="button" onclick='document.getElementById("inform").innerHTML =
+                " <H2>PEDRO ALENCAR</H2> 26 anos/ Com mais de três ocorrencias/ considerado perigoso.!"'>
+             VER HISTÓRICO</button>
+
+            </div>
+
+            <div class="card4" id="card4">
+                <H2>JHONATAN SILVA </H2>
+
+                <button type="button" onclick='document.getElementById("inform").innerHTML =
+             "<H2>JHONATAN SILVA </H2>31 anos/ Com mais de três ocorrencias/ considerado perigoso..!"'>
+             VER HISTÓRICO</button>
+
+            </div>
+
+            <div class="card5" id="card5">
+                <H2>ALINNE VASCONCELOS</H2>
+
+                <button type="button" onclick='document.getElementById("inform").innerHTML =
+             " <H2>ALINNE VASCONCELOS</H2>25 anos/ sem historico criminal/situação(cidadã com nome limpo!).!"'>
+             VER HISTÓRICO</button>
+            </div>
+
+            <div class="card6">
+                <H2>MARCELLA SOUZA</H2>
+                <button type="button" onclick='document.getElementById("inform").innerHTML =
+             "  <H2>MARCELLA SOUZA </H2>30 anos/ com dois BO,registrado contra a mesma/situação(pessoa com pendencia com a justiça)."'>
+
+             VER HISTÓRICO</button>
+            </div>
+
+        </div>
+        <div class="content" id="content">
+            <div class="text">
+             <h2>HISTÓRICO CRIMINAL.</h2>
+            </div>
+            <div class="linha"></div>
+               
+            <div class="inform" id="inform">
+
+            </div>
+            <div class="linha2"></div>
+
+        </div>
+    </main>
+    <script>
+
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
